@@ -1,25 +1,58 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
+import Navbar from "./components/navbar/";
+import Layout from "./components/Layout";
+import Routes from "./Routes";
+import Footer from "./components/footer";
 
 function App() {
+  const refS = React.createRef();
+  const refC = React.createRef();
+  const refA = React.createRef();
+  const handleClickC = () => {
+    console.log("boo");
+    if (refC.current) {
+      console.log("all");
+      refC.current.scrollIntoView({
+        behavior: "smooth",
+        block: "nearest",
+      });
+    }
+  };
+  const handleClickS = () => {
+    console.log("boo");
+    if (refS.current) {
+      console.log("all");
+      refS.current.scrollIntoView({
+        behavior: "smooth",
+        block: "nearest",
+      });
+    }
+  };
+  const handleClickA = () => {
+    console.log("boo");
+    if (refA.current) {
+      console.log("all");
+      refA.current.scrollIntoView({
+        behavior: "smooth",
+        block: "nearest",
+      });
+    }
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Layout>
+          <Navbar
+            handleClickC={handleClickC}
+            handleClickA={handleClickA}
+            handleClickS={handleClickS}
+          />
+          <Routes refS={refS} refC={refC} refA={refA} />
+          <Footer />
+        </Layout>
+      </div>
+    </BrowserRouter>
   );
 }
 
