@@ -3,7 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link, withRouter } from "react-router-dom";
-
+import Logo from "./logo.svg";
 const MyNavbar = (props) => {
   const handleClick = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -13,7 +13,8 @@ const MyNavbar = (props) => {
   return (
     <Navbar sticky="top" className="a-nav" variant="light">
       <Navbar.Brand as={Link} onClick={handleClick} to="/">
-        Omisej Nigeria Limited
+        <img src={Logo} className="logo-image" alt="Omisej Nigeria Limited" />{" "}
+        <span className="logoa">Omisej Nigeria Limited</span>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Nav className="ml-auto">

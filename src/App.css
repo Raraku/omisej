@@ -159,4 +159,18 @@ section {
     margin-right: 0;
     max-width: none;
   }
+  header {
+    height: 100vh;
+  }
+  .logoa {
+    display: none;
+  }
+}
+.logo-image {
+  height: 100%;
+  width: 2.5em;
+  margin-left: 2em;
+}
+.navbar-brand {
+  color: rgba(0, 0, 0, 0.5) !important;
 }
