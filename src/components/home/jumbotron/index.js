@@ -1,10 +1,10 @@
 import React from "react";
 
 import { Row, Col, Carousel } from "react-bootstrap";
-import D from "./C.JPG";
-import C from "./D.JPG";
-import E from "./E.JPG";
-import F from "./F.JPG";
+import D from "./ci.jpg";
+import C from "./di.jpg";
+import E from "./ei.jpg";
+import F from "./fi.jpg";
 
 export default () => {
   return (
