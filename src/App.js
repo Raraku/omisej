@@ -4,6 +4,7 @@ import Navbar from "./components/navbar/";
 import Layout from "./components/Layout";
 import Routes from "./Routes";
 import Footer from "./components/footer";
+import Reset from "./Reset";
 
 function App() {
   const refS = React.createRef();
@@ -42,15 +43,17 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Layout>
-          <Navbar
-            handleClickC={handleClickC}
-            handleClickA={handleClickA}
-            handleClickS={handleClickS}
-          />
-          <Routes refS={refS} refC={refC} refA={refA} />
-          <Footer />
-        </Layout>
+        <Reset>
+          <Layout>
+            <Navbar
+              handleClickC={handleClickC}
+              handleClickA={handleClickA}
+              handleClickS={handleClickS}
+            />
+            <Routes refS={refS} refC={refC} refA={refA} />
+            <Footer />
+          </Layout>
+        </Reset>
       </div>
     </BrowserRouter>
   );

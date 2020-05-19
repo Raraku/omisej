@@ -4,7 +4,7 @@ import { Table } from "react-bootstrap";
 const Projects = () => {
   return (
     <div>
-      <h3 class="text-center p-3">Previous Completed Projects</h3>
+      <h3 className="text-center p-3">Previous Completed Projects</h3>
       <Table striped width="857">
         <thead>
           <tr>
@@ -32,7 +32,7 @@ const Projects = () => {
         </thead>
         <tbody>
           <tr>
-            <td colspan="4" width="857">
+            <td colSpan="4" width="857">
               <p>
                 <strong>ENVIRONMENTAL STUDIES</strong>
               </p>
@@ -135,7 +135,7 @@ const Projects = () => {
         </thead>
         <tbody>
           <tr>
-            <td colspan="4" width="857">
+            <td colSpan="4" width="857">
               <p>
                 <strong>INDUSTRIAL PLUMBING</strong>
               </p>
@@ -241,7 +241,7 @@ const Projects = () => {
         </thead>
         <tbody>
           <tr>
-            <td colspan="4" width="857">
+            <td colSpan="4" width="857">
               <p>
                 <strong>BOREHOLE DRILLING</strong>
               </p>
@@ -473,7 +473,7 @@ const Projects = () => {
         </thead>
         <tbody>
           <tr>
-            <td colspan="4" width="857">
+            <td colSpan="4" width="857">
               <p>
                 <strong>SEWAGE/EFFLUENT TREATMENT PLANTS</strong>
               </p>
@@ -674,7 +674,7 @@ const Projects = () => {
         </thead>
         <tbody>
           <tr>
-            <td colspan="4" width="857">
+            <td colSpan="4" width="857">
               <p>
                 <strong>WATER TREATMENT PLANTS</strong>
               </p>
@@ -828,7 +828,7 @@ const Projects = () => {
         </thead>
         <tbody>
           <tr>
-            <td colspan="4" width="857">
+            <td colSpan="4" width="857">
               <p>
                 <strong>FIRE HYDRANT</strong>
               </p>
@@ -901,7 +901,7 @@ const Projects = () => {
         </thead>
         <tbody>
           <tr>
-            <td colspan="4" width="857">
+            <td colSpan="4" width="857">
               <p>
                 <strong>STEEL FABRICATION</strong>
               </p>

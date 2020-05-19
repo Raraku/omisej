@@ -9,7 +9,6 @@ const MyNavbar = (props) => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  console.log(props);
   return (
     <Navbar sticky="top" className="a-nav" variant="light">
       <Navbar.Brand as={Link} onClick={handleClick} to="/">
@@ -41,10 +40,13 @@ const MyNavbar = (props) => {
         <Nav.Link as={Link} to="/hse">
           Our HSE Policy
         </Nav.Link>
-
-        <Nav.Link onClick={props.handleClickC} to="/contact">
-          Contact Us
-        </Nav.Link>
+        {props.location.pathname == "/" ? (
+          <Nav.Link onClick={props.handleClickC}>Contact Us</Nav.Link>
+        ) : (
+          <Nav.Link as={Link} to="/contact-us">
+            Contact Us
+          </Nav.Link>
+        )}
       </Nav>
     </Navbar>
   );

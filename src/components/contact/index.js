@@ -7,6 +7,7 @@ import { Col } from "react-bootstrap";
 export default (props) => {
   return (
     <div ref={props.refe}>
+      <br />
       <h4>Contact us</h4>
       <div className="contact">
         <div className="contact-block-a">

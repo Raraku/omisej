@@ -8,11 +8,12 @@ import Projects from "./Projects";
 import about from "./components/about";
 import Services from "./components/home/Services";
 import Staff from "./components/Staff";
+
 export default (props) => (
   <Switch>
     <Route exact path="/" render={() => <Home {...props} />} />
     <Route path="/services" component={Services} />
-    <Route path="/contact" component={Contact} />
+    <Route path="/contact-us" component={Contact} />
     <Route path="/hse" component={HSE} />
     <Route path="/about" component={about} />
     <Route path="/staff" component={Staff} />
