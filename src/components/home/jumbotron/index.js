@@ -21,10 +21,8 @@ export default () => {
             <Carousel.Item>
               <img className="d-block c-image" src={C} alt="First slide" />
               <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </p>
+                <h3>Water Engineering/Management</h3>
+                <p></p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -34,10 +32,7 @@ export default () => {
                 alt="First slide"
               />
               <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </p>
+                <h3>Mechanical Engineering/Maintenance</h3>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -48,8 +43,7 @@ export default () => {
               />
 
               <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h3>Chemical Engineering</h3>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -60,11 +54,7 @@ export default () => {
               />
 
               <Carousel.Caption>
-                <h3>Third slide label</h3>
-                <p>
-                  Praesent commodo cursus magna, vel scelerisque nisl
-                  consectetur.
-                </p>
+                <h3>Steel Structures Design and Erection</h3>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>

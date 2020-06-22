@@ -115,8 +115,7 @@ section {
 }
 .contact {
   border-radius: 5px;
-  border: 1px solid greenyellow;
-
+  border: 1px solid green;
   width: 100%;
   display: flex;
   margin-bottom: 3em;
@@ -134,7 +133,7 @@ section {
 .contact-block-b {
   padding: 1rem;
   width: 70%;
-  border-left: greenyellow 1px solid;
+  border-left: green 1px solid;
 }
 .fp-icon-box-5 {
   padding-bottom: 0.5em;

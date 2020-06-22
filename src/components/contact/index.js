@@ -10,7 +10,7 @@ export default (props) => {
       <br />
       <h4>Contact us</h4>
       <div className="contact">
-        <div className="contact-block-a">
+        <Col xs={12} md={3} className="contact-block-a">
           <h5>Contact Details</h5>
           <div class=" fp-icon-box-5 icon-center dark-version">
             <h6>
@@ -34,8 +34,8 @@ export default (props) => {
               P.O Box 60501
             </p>
           </div>
-        </div>
-        <div className="contact-block-b">
+        </Col>
+        <Col xs={12} md={9} className="contact-block-b">
           <Form name="contact" method="post">
             <input type="hidden" name="form-name" value="contact" />
             <Form.Row>
@@ -79,7 +79,7 @@ export default (props) => {
               Submit
             </Button>
           </Form>
-        </div>
+        </Col>
       </div>
     </div>
   );
