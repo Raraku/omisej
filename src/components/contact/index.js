@@ -1,15 +1,15 @@
 import React from "react";
-import { Form, Button } from "react-bootstrap";
+import { Form, Button, Alert } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
-import { Col } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 
 export default (props) => {
   return (
     <div ref={props.refe}>
       <br />
       <h4>Contact us</h4>
-      <div className="contact">
+      <Row className="contact">
         <Col xs={12} md={3} className="contact-block-a">
           <h5>Contact Details</h5>
           <div class=" fp-icon-box-5 icon-center dark-version">
@@ -38,6 +38,9 @@ export default (props) => {
         <Col xs={12} md={9} className="contact-block-b">
           <Form name="contact" method="post">
             <input type="hidden" name="form-name" value="contact" />
+            <Alert variant="success">
+              Fill the form below to contact us. Expect a reply within 48 hours
+            </Alert>
             <Form.Row>
               <Form.Group as={Col} controlId="formGridEmail">
                 <Form.Label>Your Name*</Form.Label>
@@ -80,7 +83,7 @@ export default (props) => {
             </Button>
           </Form>
         </Col>
-      </div>
+      </Row>
     </div>
   );
 };
