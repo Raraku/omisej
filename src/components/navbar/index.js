@@ -10,44 +10,47 @@ const MyNavbar = (props) => {
   };
 
   return (
-    <Navbar sticky="top" className="a-nav" variant="light">
+    <Navbar sticky="top" expand="lg" className="a-nav" variant="light">
       <Navbar.Brand as={Link} onClick={handleClick} to="/">
         <img src={Logo} className="logo-image" alt="Omisej Nigeria Limited" />{" "}
         <span className="logoa">Omisej Nigeria Limited</span>
       </Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-      <Nav className="ml-auto">
-        {props.location.pathname == "/" ? (
-          <Nav.Link onClick={props.handleClickA}>About us</Nav.Link>
-        ) : (
-          <Nav.Link as={Link} to="/">
-            About us
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="ml-auto">
+          {props.location.pathname == "/" ? (
+            <Nav.Link onClick={props.handleClickA}>About us</Nav.Link>
+          ) : (
+            <Nav.Link as={Link} to="/">
+              About us
+            </Nav.Link>
+          )}
+          {props.location.pathname == "/" ? (
+            <Nav.Link onClick={props.handleClickS}>Services</Nav.Link>
+          ) : (
+            <Nav.Link as={Link} to="/services">
+              Services
+            </Nav.Link>
+          )}
+          <Nav.Link as={Link} to="/projects">
+            Projects
           </Nav.Link>
-        )}
-        {props.location.pathname == "/" ? (
-          <Nav.Link onClick={props.handleClickS}>Services</Nav.Link>
-        ) : (
-          <Nav.Link as={Link} to="/services">
-            Services
+          <Nav.Link as={Link} to="/staff">
+            Our Staff
           </Nav.Link>
-        )}
-        <Nav.Link as={Link} to="/projects">
-          Projects
-        </Nav.Link>
-        <Nav.Link as={Link} to="/staff">
-          Our Staff
-        </Nav.Link>
-        <Nav.Link as={Link} to="/hse">
-          Our HSE Policy
-        </Nav.Link>
-        {props.location.pathname == "/" ? (
-          <Nav.Link onClick={props.handleClickC}>Contact Us</Nav.Link>
-        ) : (
-          <Nav.Link as={Link} to="/contact-us">
-            Contact Us
+          <Nav.Link as={Link} to="/hse">
+            Our HSE Policy
           </Nav.Link>
-        )}
-      </Nav>
+          {props.location.pathname == "/" ? (
+            <Nav.Link onClick={props.handleClickC}>Contact Us</Nav.Link>
+          ) : (
+            <Nav.Link as={Link} to="/contact-us">
+              Contact Us
+            </Nav.Link>
+          )}
+        </Nav>
+      </Navbar.Collapse>
     </Navbar>
   );
 };
