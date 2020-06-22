@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import { Nav } from "react-bootstrap";
+
 import { Link, withRouter } from "react-router-dom";
 import Logo from "./logo.svg";
 const MyNavbar = (props) => {
@@ -19,14 +19,14 @@ const MyNavbar = (props) => {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-          {props.location.pathname == "/" ? (
+          {props.location.pathname === "/" ? (
             <Nav.Link onClick={props.handleClickA}>About us</Nav.Link>
           ) : (
             <Nav.Link as={Link} to="/">
               About us
             </Nav.Link>
           )}
-          {props.location.pathname == "/" ? (
+          {props.location.pathname === "/" ? (
             <Nav.Link onClick={props.handleClickS}>Services</Nav.Link>
           ) : (
             <Nav.Link as={Link} to="/services">
@@ -42,7 +42,7 @@ const MyNavbar = (props) => {
           <Nav.Link as={Link} to="/hse">
             Our HSE Policy
           </Nav.Link>
-          {props.location.pathname == "/" ? (
+          {props.location.pathname === "/" ? (
             <Nav.Link onClick={props.handleClickC}>Contact Us</Nav.Link>
           ) : (
             <Nav.Link as={Link} to="/contact-us">

@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, CardDeck, Card } from "react-bootstrap";
+import { CardDeck, Card } from "react-bootstrap";
 
 const Mission = () => {
   return (

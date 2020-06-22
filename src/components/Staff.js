@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Media } from "react-bootstrap";
+import { Media } from "react-bootstrap";
 import Passport from "./p.png";
 
 const Staff = () => {
