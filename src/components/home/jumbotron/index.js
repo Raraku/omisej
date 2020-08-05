@@ -6,9 +6,25 @@ import C from "./di.jpg";
 import E from "./ei.jpg";
 import F from "./fi.jpg";
 
+import { Helmet } from "react-helmet";
+
 export default () => {
   return (
     <div>
+      <Helmet>
+        <meta charset="utf-8" />
+        <meta
+          name="description"
+          content="is a Nigerian indigenous company duly
+        incorporated on 10th January, 1994 under the Nigerian Company and Allied
+        Matters Law of 1976 as a Private Limited Liability Company. We are a
+        Water, Mechanical and Chemical Engineering company. We are staffed with
+        well trained Engineers with extensive experience in Steel fabrication
+        and erection, water treatment, borehole drilling and servicing. Our
+        services are prompt, efficient and customer oriented with zero tolerance
+        to incidence."
+        />
+      </Helmet>
       <Row className="third h-50">
         <Col className="fourth" xs={12} md={6}>
           <div className="jumbotron-text w-100 text-center ">
@@ -21,7 +37,7 @@ export default () => {
             <Carousel.Item>
               <img className="d-block c-image" src={C} alt="First slide" />
               <Carousel.Caption>
-                <h3>Water Engineering/Management</h3>
+                <h3>Water Engineering/Environmental Services</h3>
                 <p></p>
               </Carousel.Caption>
             </Carousel.Item>

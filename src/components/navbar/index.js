@@ -10,7 +10,13 @@ const MyNavbar = (props) => {
   };
 
   return (
-    <Navbar sticky="top" expand="lg" className="a-nav" variant="light">
+    <Navbar
+      collapseOnSelect
+      sticky="top"
+      expand="lg"
+      className="a-nav"
+      variant="light"
+    >
       <Navbar.Brand as={Link} onClick={handleClick} to="/">
         <img src={Logo} className="logo-image" alt="Omisej Nigeria Limited" />{" "}
         <span className="logoa">Omisej Nigeria Limited</span>
@@ -29,23 +35,23 @@ const MyNavbar = (props) => {
           {props.location.pathname === "/" ? (
             <Nav.Link onClick={props.handleClickS}>Services</Nav.Link>
           ) : (
-            <Nav.Link as={Link} to="/services">
+            <Nav.Link as={Link} to="/services/">
               Services
             </Nav.Link>
           )}
-          <Nav.Link as={Link} to="/projects">
+          <Nav.Link as={Link} to="/projects/">
             Projects
           </Nav.Link>
-          <Nav.Link as={Link} to="/staff">
+          <Nav.Link as={Link} to="/staff/">
             Our Staff
           </Nav.Link>
-          <Nav.Link as={Link} to="/hse">
+          <Nav.Link as={Link} to="/hse/">
             Our HSE Policy
           </Nav.Link>
           {props.location.pathname === "/" ? (
             <Nav.Link onClick={props.handleClickC}>Contact Us</Nav.Link>
           ) : (
-            <Nav.Link as={Link} to="/contact-us">
+            <Nav.Link as={Link} to="/contact-us/">
               Contact Us
             </Nav.Link>
           )}

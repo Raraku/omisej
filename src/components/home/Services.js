@@ -5,7 +5,7 @@ const Services = (props) => {
   return (
     <div className="it" ref={props.refe}>
       <br />
-      <h3 className="text-center">Our Services</h3>
+      <h3 className="text-center heading">Our Services</h3>
       <br />
       <CardDeck>
         <Card className="card-outer">
@@ -30,7 +30,7 @@ const Services = (props) => {
         </Card>
         <Card className="card-outer ">
           <Card.Header>
-            <h4>MECHANICAL ENGINEERING/MAINTENANCE</h4>
+            <h4>MECHANICAL ENGINEERING/ENVIRONMENTAL SERVICES</h4>
           </Card.Header>
           <Card.Body>
             <ul>

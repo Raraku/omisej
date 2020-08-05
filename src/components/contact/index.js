@@ -24,7 +24,7 @@ export default (props) => {
             <span class="fp-icon">
               <i class="factory-travel"></i>
             </span>
-            <h5>Our Office - Idi-Oro</h5>
+            <h5>Our Office Address</h5>
             <div class="sub-title"></div>
             <p>
               30B, Olufunmilayo Street, Dideolu Estate

@@ -12,12 +12,12 @@ import Staff from "./components/Staff";
 export default (props) => (
   <Switch>
     <Route exact path="/" render={() => <Home {...props} />} />
-    <Route path="/services" component={Services} />
-    <Route path="/contact-us" component={Contact} />
-    <Route path="/hse" component={HSE} />
-    <Route path="/about" component={about} />
-    <Route path="/staff" component={Staff} />
-    <Route path="/projects" component={Projects} />
+    <Route path="/services/" component={Services} />
+    <Route path="/contact-us/" component={Contact} />
+    <Route path="/hse/" component={HSE} />
+    <Route path="/about/" component={about} />
+    <Route path="/staff/" component={Staff} />
+    <Route path="/projects/" component={Projects} />
     <Route component={NotFound} />
   </Switch>
 );
