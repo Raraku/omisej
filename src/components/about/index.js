@@ -3,7 +3,7 @@ import React from "react";
 export default (props) => {
   return (
     <div ref={props.refe}>
-      <h4>About us</h4>
+      <h4 className="mission-head">About us</h4>
       <p>
         <b>OMISEJ NIGERIA LIMITED</b> is a Nigerian indigenous company duly
         incorporated on 10th January, 1994 under the Nigerian Company and Allied

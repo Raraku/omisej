@@ -7,7 +7,7 @@ const Mission = () => {
       <CardDeck>
         <Card className="card-out">
           <Card.Header>
-            <h4>Our Mission</h4>
+            <h4 className="mission-head">Our Mission</h4>
           </Card.Header>
           <Card.Body>
             Quality and customised engineering services centered on customers,
@@ -17,7 +17,7 @@ const Mission = () => {
         </Card>
         <Card className="card-out">
           <Card.Header>
-            <h4>Our Vision</h4>
+            <h4 className="mission-head">Our Vision</h4>
           </Card.Header>
           <Card.Body>
             To build a world class engineering services company
@@ -25,7 +25,7 @@ const Mission = () => {
         </Card>
         <Card className="card-out">
           <Card.Header>
-            <h4>Our Core Values</h4>
+            <h4 className="mission-head">Our Core Values</h4>
           </Card.Header>
           <Card.Body>
             Quality and customised engineering services centered on customers,

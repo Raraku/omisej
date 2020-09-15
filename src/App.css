@@ -4,12 +4,12 @@
   padding-top: 1em;
 }
 
-.jumbo {
+/* .jumbo {
   background: url("/assets/imgs/communication-3.jpg") no-repeat;
   background-size: 100% 100%;
   height: 100%;
   z-index: -2;
-}
+} */
 .row {
 }
 .jumbotron-text {
@@ -49,7 +49,7 @@
   background-color: #0ba024;
 }
 .sixth {
-  /* margin-top: -9rem; */
+  margin-top: -4rem;
 }
 .card-out,
 .card-outer {
@@ -70,12 +70,14 @@
 }
 header {
   position: relative;
-  height: 65vh;
+  height: 80vh;
   background-image: linear-gradient(#13dd78, #0ba024);
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 5vw));
+  /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 5vw)); */
   /* change the calc height to a percentage height to get alternate responsive behavior*/
 }
-
+#root {
+  background: #0ba024;
+}
 h1 {
   margin: 0;
   padding: 100px 0;
@@ -173,8 +175,8 @@ section {
   }
 }
 .logo-image {
-  height: 100%;
-  width: 2.5em;
+  width: 40px !important;
+  height: 40px !important;
   margin-left: 2em;
 }
 .navbar-brand {
@@ -184,7 +186,8 @@ section {
   width: 100%;
   height: 25em;
 }
-.heading {
+.heading,
+.mission-head {
   position: relative;
 }
 .heading::before {
@@ -195,6 +198,17 @@ section {
   left: 0;
   display: block;
   width: 25px;
-  height: 5px;
+  height: 3px;
+  background: green;
+}
+.mission-head::before {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  right: 0;
+  left: 0;
+  display: block;
+  width: 25px;
+  height: 3px;
   background: green;
 }
