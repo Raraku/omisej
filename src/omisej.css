@@ -259,6 +259,9 @@ a:hover {
   .service-page-image {
     width: 100%;
   }
+  .service-head {
+    word-wrap: break-word;
+  }
 }
 .client-paper {
   width: 100%;
