@@ -51,7 +51,10 @@ const Mission = () => {
         <h3>{data[index].title}</h3>
       </Col>
       <Col xs={12} md={6} className="second">
-        <p dangerouslySetInnerHTML={{ __html: data[index].text }}></p>
+        <p
+          className="mt-3"
+          dangerouslySetInnerHTML={{ __html: data[index].text }}
+        ></p>
       </Col>
     </Row>
   );

@@ -27,8 +27,8 @@ background-color: #f4f4f4; */
 
 .fifth,
 .sixth {
-  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
 .image-col {
@@ -61,8 +61,8 @@ background-color: #f4f4f4; */
   margin-top: 1em;
   border-radius: 1em;
   min-height: 60vh;
-  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
 .sixth > .col {
@@ -79,6 +79,7 @@ background-color: #f4f4f4; */
   position: relative;
   display: flex;
   align-items: center;
+  min-height: 30vh;
   justify-content: center;
   flex-direction: column;
 }
@@ -176,7 +177,7 @@ a:hover {
   padding-right: 0.5em;
   padding-left: 0.5em;
   border-right: white 1px solid;
-  line-height: 0.8em;
+  line-height: 1.2em;
   color: #eee;
 }
 
@@ -224,6 +225,39 @@ a:hover {
     max-width: none !important;
     padding-right: 0 !important;
     padding-left: 0 !important;
+  }
+  .fifth {
+    max-width: 100% !important;
+    min-height: 40vh;
+  }
+  .c-image {
+    min-height: 50vh;
+  }
+  .carousel-caption > h3 {
+    font-size: 1.1em !important;
+  }
+  .contact-image-div {
+    min-height: 40vh;
+  }
+  .navbar .container-fluid {
+    flex-wrap: nowrap;
+    line-height: 1em;
+  }
+  .first,
+  .second {
+    min-height: 35vh !important;
+  }
+  .image-col {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .contact-block-a {
+    border-right: none;
+    border-bottom: green 2px solid;
+    margin-bottom: 0.5em;
+  }
+  .service-page-image {
+    width: 100%;
   }
 }
 .client-paper {
