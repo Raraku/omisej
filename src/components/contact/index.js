@@ -3,12 +3,13 @@ import { Form, Button, Alert } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 import { Col, Row } from "react-bootstrap";
+import Paper from "@material-ui/core/Paper";
 
 export default (props) => {
   return (
-    <div ref={props.refe}>
+    <Paper className="pl-4 pr-4 pt-2 pb-5" ref={props.refe}>
       <br />
-      <h4>Contact us</h4>
+      <h3 className="text-center pt-3 pb-3 header">Contact us</h3>
       <Row className="contact">
         <Col xs={12} md={3} className="contact-block-a">
           <h5>Contact Details</h5>
@@ -84,6 +85,6 @@ export default (props) => {
           </Form>
         </Col>
       </Row>
-    </div>
+    </Paper>
   );
 };

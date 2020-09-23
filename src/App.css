@@ -4,41 +4,58 @@
   padding-top: 1em;
 }
 
+body {
+  background-color: white;
+  color: rgb(2, 26, 2);
+}
+
 /* .jumbo {
   background: url("/assets/imgs/communication-3.jpg") no-repeat;
   background-size: 100% 100%;
   height: 100%;
   z-index: -2;
 } */
-.row {
-}
+.row {}
+
 .jumbotron-text {
   padding: 0.5rem;
-  color: white;
   font-size: 1.5rem;
   margin-bottom: 1rem;
   word-wrap: break-word;
+  color: whitesmoke;
 }
+
 .jumbotron-header {
   padding: 0.5rem;
   font-size: 3rem;
   line-height: inherit;
 }
+
 .green {
   background-color: green;
 }
+
 .second {
   padding-left: 0%;
   padding-right: 0%;
 }
+
 .third {
   margin-right: 0;
   margin-left: 0;
 }
+
 .fourth {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* background-color: rgb(241, 240, 240);
+
+  color: green; */
+}
+
+.image-col {
+  padding-left: 0 !important;
 }
 
 .a-nav {
@@ -48,14 +65,19 @@
 .c-nav {
   background-color: #0ba024;
 }
+
 .sixth {
-  margin-top: -4rem;
+  padding-top: 1em;
 }
+
 .card-out,
 .card-outer {
   border: none;
+  background: transparent;
   padding-bottom: 0;
+  z-index: 200;
 }
+
 /* .card-out,
 .card-outer {
   -webkit-box-shadow: 10px 10px 5px 0px rgba(196, 192, 196, 0.46);
@@ -68,16 +90,19 @@
   -moz-box-shadow: 0px 1px 11px 4px rgba(196, 192, 196, 0.46);
   box-shadow: 0px 1px 11px 4px rgba(196, 192, 196, 0.46);
 }
+
 header {
   position: relative;
   height: 80vh;
   background-image: linear-gradient(#13dd78, #0ba024);
-  /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 5vw)); */
-  /* change the calc height to a percentage height to get alternate responsive behavior*/
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 5vw));
+  /* change the calc height to a percentage height to get alternat responsive behavior*/
 }
+
 #root {
-  background: #0ba024;
+  background-color: rgb(241, 240, 240);
 }
+
 h1 {
   margin: 0;
   padding: 100px 0;
@@ -86,10 +111,20 @@ h1 {
   text-align: center;
 }
 
+.the-display {
+  padding-top: 1em;
+  background-color: white;
+  position: relative;
+  margin-top: -5rem;
+  border-radius: 1em;
+  z-index: 200;
+}
+
 section {
   /* margin-top: -5vw; */
   /* background-image: linear-gradient(135deg, #777, #111); */
 }
+
 .h3 {
   font-size: 320px;
 }
@@ -101,23 +136,30 @@ section {
   z-index: 10;
   position: relative;
 }
+
 .card-header {
   padding: 0rem 1rem;
   padding-top: 0.8rem;
-  background-color: white;
-  border-bottom: none;
+  background-color: rgb(241, 240, 240);
+  color: #212529;
+  border-radius: 0.5em !important;
 }
+
 .card-body {
   padding: 0rem 1rem;
+  background-color: transparent !important;
   padding-bottom: 0.7rem;
 }
+
 .card-outer {
   min-width: 40%;
   margin-bottom: 0.9rem !important;
 }
+
 .contact.row {
   margin-left: 0 !important;
 }
+
 .contact {
   border-radius: 5px;
   border: 1px solid green;
@@ -126,33 +168,40 @@ section {
   margin-bottom: 3em;
   flex-direction: row;
 }
+
 .contact-block-a,
-.contact-block-b {
-}
+.contact-block-b {}
+
 .contact-block-a {
   height: 100%;
   padding: 1rem;
 }
+
 .contact-block-b {
   padding: 1rem;
 
   border-left: green 1px solid;
 }
+
 .fp-icon-box-5 {
   padding-bottom: 0.5em;
   border-bottom: 1px solid #f7f7f7;
   margin-right: 40px;
   margin-bottom: 1rem;
 }
+
 .svg-inline--fa {
   color: green;
 }
+
 .textarea {
   height: 8rem !important;
 }
+
 .footer-container {
   justify-content: flex-end !important;
 }
+
 @media only screen and (max-width: 768px) {
   .container {
     width: 100%;
@@ -160,36 +209,40 @@ section {
     margin-right: 0;
     max-width: none;
   }
+
   header {
     height: 100vh;
   }
+
   .logoa {
     display: none;
   }
-  .c-image {
-    width: 100%;
-    height: 22em !important;
-  }
+
   .carousel-caption {
     display: none;
   }
 }
+
 .logo-image {
   width: 40px !important;
   height: 40px !important;
   margin-left: 2em;
 }
+
 .navbar-brand {
   color: rgba(0, 0, 0, 0.5) !important;
 }
+
 .c-image {
   width: 100%;
   height: 25em;
 }
+
 .heading,
 .mission-head {
   position: relative;
 }
+
 .heading::before {
   content: "";
   position: absolute;
@@ -201,6 +254,7 @@ section {
   height: 3px;
   background: green;
 }
+
 .mission-head::before {
   content: "";
   position: absolute;
@@ -211,4 +265,12 @@ section {
   width: 25px;
   height: 3px;
   background: green;
+}
+
+.contact-image-div {
+  transition: transform 0.2s;
+}
+
+.contact-image-div:hover {
+  transform: scale(1.3);
 }

@@ -2,12 +2,8 @@ import React from "react";
 
 const HSE = () => {
   return (
-    <div className="p-5">
-      <p>
-        <strong>
-          <u>COMPANY HSE POLICY</u>
-        </strong>
-      </p>
+    <div className="p-3">
+      <h3 className="text-center p-3 header">Our HSE Policy</h3>
 
       <p>
         It is the policy of OMISEJ NIGERIA LIMITED to carry out all its work in

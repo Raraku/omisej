@@ -4,7 +4,7 @@ import { Table } from "react-bootstrap";
 const Projects = () => {
   return (
     <div>
-      <h3 className="text-center p-3">Previous Completed Projects</h3>
+      <h3 className="text-center p-3 header">Previous Completed Projects</h3>
       <Table striped width="857">
         <thead>
           <tr>
