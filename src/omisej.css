@@ -262,6 +262,9 @@ a:hover {
   .service-head {
     word-wrap: break-word;
   }
+  .logo-image {
+    margin-left: 0;
+  }
 }
 .client-paper {
   width: 100%;
