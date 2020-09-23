@@ -7,6 +7,7 @@ import About from "./../about";
 import { Helmet } from "react-helmet";
 import WOW from "wowjs";
 import ContactHero from "./../contact/contactHero";
+import Client from "./../clients";
 
 export default (props) => {
   new WOW.WOW({ live: false }).init();
@@ -36,6 +37,7 @@ export default (props) => {
         <br />
         <About refe={props.refA} />
         <Services refe={props.refS} />
+        <Client />
         <ContactHero />
       </Container>
     </div>

@@ -226,3 +226,23 @@ a:hover {
     padding-left: 0 !important;
   }
 }
+.client-paper {
+  width: 100%;
+}
+.client-div {
+  display: flex;
+  overflow-y: hidden;
+  padding-bottom: 0;
+  flex: 1;
+  white-space: nowrap;
+  justify-content: space-between;
+
+  width: 100%;
+}
+.client-div::-webkit-scrollbar {
+  display: none;
+}
+.client-image {
+  width: 150px;
+  height: 150px;
+}
