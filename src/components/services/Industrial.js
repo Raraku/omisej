@@ -23,8 +23,8 @@ export default () => {
         <li>Industrial project management</li>
       </ul>
       <div>
-        <img src={One} className="service-page-image" />
-        <img src={Two} className="service-page-image" />
+        <img alt="omisej" src={One} className="service-page-image" />
+        <img alt="omisej" src={Two} className="service-page-image" />
       </div>
       <ContactHero />
     </Paper>

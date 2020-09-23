@@ -33,8 +33,8 @@ export default () => {
             We also procure and supply our customers with best quality products.
           </p>
           <div>
-            <img src={Twelve} className="service-page-image" />
-            <img src={Thirteen} className="service-page-image" />
+            <img src={Twelve} alt="omisej" className="service-page-image" />
+            <img src={Thirteen} alt="omisej" className="service-page-image" />
           </div>
         </div>
         <ContactHero />

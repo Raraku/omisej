@@ -5,7 +5,6 @@ import D from "./ci.jpg";
 import C from "./di.jpg";
 import E from "./ei.jpg";
 import F from "./fi.jpg";
-import Gear from "./gear.svg";
 import Logo from "./../../navbar/logo.svg";
 
 export default () => {
@@ -15,7 +14,7 @@ export default () => {
         <Col className="fourth" xs={12} md={12}>
           <div className="jumbotron-text w-100 text-center ">
             <div>
-              <img className="logo" src={Logo} />
+              <img className="logo" alt="omisej-logo" src={Logo} />
             </div>
             <div className="jumbotron-header">Omisej Nigeria Limited</div>
             <i>...An Engineering Services Company</i>

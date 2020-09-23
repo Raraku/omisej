@@ -35,16 +35,16 @@ export default () => {
       </ul>
       <p>We also carry out consultancy services on water.</p>
       <div>
-        <img src={Five} className="service-page-image" />
-        <img src={Six} className="service-page-image" />
+        <img alt="omisej" src={Five} className="service-page-image" />
+        <img alt="omisej" src={Six} className="service-page-image" />
       </div>
       <div className="mt-3">
         <h4>Plumbing</h4>
         <p>
           General industrial and domestic plumbing of water, oil and gas lines.
         </p>
-        <img src={Seven} className="service-page-image" />
-        <img src={Eight} className="service-page-image" />
+        <img alt="omisej" src={Seven} className="service-page-image" />
+        <img alt="omisej" src={Eight} className="service-page-image" />
       </div>
       <div>
         <h4>Steel Structures Design</h4>
@@ -54,8 +54,8 @@ export default () => {
           <li>Fabrication and Erection of Oil, Water and Gas Storage Tanks.</li>
         </ul>
 
-        <img src={Nine} className="service-page-image" />
-        <img src={Ten} className="service-page-image" />
+        <img alt="omisej" src={Nine} className="service-page-image" />
+        <img alt="omisej" src={Ten} className="service-page-image" />
       </div>
       <ContactHero />
     </Paper>

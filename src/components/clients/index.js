@@ -1,5 +1,4 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
 import Paper from "@material-ui/core/Paper";
 import a from "./a.svg";
 import b from "./b.png";
@@ -15,12 +14,12 @@ export default function Clients() {
         <p className="mission-head">Our Clients include</p>
       </h3>
       <div className="client-div">
-        <img className="client-image" src={a} />
-        <img className="client-image" src={b} />
-        <img className="client-image" src={c} />
-        <img className="client-image" src={d} />
-        <img className="client-image" src={e} />
-        <img className="client-image" src={f} />
+        <img alt="omisej" className="client-image" src={a} />
+        <img alt="omisej" className="client-image" src={b} />
+        <img alt="omisej" className="client-image" src={c} />
+        <img alt="omisej" className="client-image" src={d} />
+        <img alt="omisej" className="client-image" src={e} />
+        <img alt="omisej" className="client-image" src={f} />
       </div>
     </Paper>
   );

@@ -23,8 +23,8 @@ export default () => {
         <li>Consultancy Services</li>
       </ul>
       <div>
-        <img className="service-page-image" src={Three} />
-        <img className="service-page-image" src={Four} />
+        <img alt="omisej" className="service-page-image" src={Three} />
+        <img alt="omisej" className="service-page-image" src={Four} />
       </div>
       <ContactHero />
     </Paper>
