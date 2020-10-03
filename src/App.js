@@ -5,6 +5,7 @@ import Layout from "./components/Layout";
 import Routes from "./Routes";
 import Footer from "./components/footer";
 import Reset from "./Reset";
+// import Wassap from "./wassap.png";
 
 function App() {
   // const refS = React.createRef();
@@ -62,3 +63,7 @@ function App() {
 }
 
 export default App;
+
+/* <a href="https://wa.me/2348027924281" className="wassap-link">
+              <img className="wassap-image" src={Wassap} />
+            </a> */
