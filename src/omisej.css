@@ -27,8 +27,8 @@ background-color: #f4f4f4; */
 
 .fifth,
 .sixth {
-  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
 .image-col {
@@ -61,8 +61,8 @@ background-color: #f4f4f4; */
   margin-top: 1em;
   border-radius: 1em;
   min-height: 60vh;
-  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
 .sixth > .col {
@@ -155,6 +155,7 @@ background-color: #f4f4f4; */
 
 .footer-nav {
   background-color: green;
+  min-height: 30vh;
 }
 
 a {
@@ -164,21 +165,47 @@ a {
 a:hover {
   color: inherit;
 }
+.footer-row {
+  width: 100%;
+}
 
 .footer-b {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   padding-bottom: 1em;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+}
+.ule {
+  list-style: none;
+  margin-top: 0.5em;
+}
+.lain {
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
+  margin-top: 1em;
+  bottom: 1em;
+  width: 100%;
+  text-align: center;
 }
 
 .footer-c {
   padding-right: 0.5em;
   padding-left: 0.5em;
-  border-right: white 1px solid;
+
   line-height: 1.2em;
   color: #eee;
+}
+.eada {
+  border-right: white 1px solid;
+}
+.lom {
+  border-bottom: white 1px solid;
+}
+.lom:hover {
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: bold;
 }
 
 .footer-c.last {
@@ -265,6 +292,22 @@ a:hover {
   .logo-image {
     margin-left: 0;
   }
+  .asae {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+
+  .asae p {
+    margin-bottom: 1.1em !important;
+  }
+  .asae.b {
+    margin-top: 1.7em;
+  }
+
+  .eada {
+    border-right: none !important;
+    border-bottom: white 1px solid;
+  }
 }
 .client-paper {
   width: 100%;
@@ -296,3 +339,12 @@ a:hover {
   bottom: 5px;
   right: 5px;
 } */
+.asae a {
+  margin-bottom: 0.8em;
+  display: block;
+}
+.asae.b {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}

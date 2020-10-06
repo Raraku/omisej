@@ -13,6 +13,15 @@ import Env from "./components/services/env engineering";
 import Chem from "./components/services/Chem Engr";
 import Mech from "./components/services/mech engr";
 import privacy from "./privacy";
+import Wt from "./components/services/sub-services/wt";
+import Bd from "./components/services/sub-services/bd";
+import Dibc from "./components/services/sub-services/dibc";
+import Dip from "./components/services/sub-services/dip";
+import Ecs from "./components/services/sub-services/ecs";
+import Frst from "./components/services/sub-services/frst";
+import Occ from "./components/services/sub-services/occ";
+import Sc from "./components/services/sub-services/sc";
+import St from "./components/services/sub-services/st";
 import tos from "./tos";
 
 export default (props) => (
@@ -28,7 +37,19 @@ export default (props) => (
     <Route path="/privacy-policy/" component={privacy} />
     <Route path="/services/environmental-engineering/" component={Env} />
     <Route path="/services/chemical-engineering/" component={Chem} />
-    <Route path="/services/mechanical-engineering" component={Mech} />
+    <Route path="/services/mechanical-engineering/" component={Mech} />
+    <Route path="/services/water-treatment" component={Wt} />
+    <Route path="/services/borehole-drilling/" component={Bd} />
+    <Route
+      path="/services/descaling-boilers-cooling-systems/"
+      component={Dibc}
+    />
+    <Route path="/services/domestic-industrial-plumbing/" component={Dip} />
+    <Route path="/services/engineering-consultancy/" component={Ecs} />
+    <Route path="/services/fabrication/" component={Frst} />
+    <Route path="/services/chemical-cleaning/" component={Occ} />
+    <Route path="/services/supply-of-chemicals/" component={Sc} />
+    <Route path="/services/sewage-treatment/" component={St} />
     <Route path="/contact-us/" component={Contact} />
     <Route path="/hse/" component={HSE} />
     <Route path="/about/" component={about} />

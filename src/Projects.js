@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div>
       <h3 className="text-center p-3 header">Previous Completed Projects</h3>
-      <Table striped width="857">
+      <Table responsive="md" striped width="857">
         <thead>
           <tr>
             <th width="55">

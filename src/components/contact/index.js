@@ -20,6 +20,7 @@ export default (props) => {
             </h6>
             <div class="sub-title"></div>
             <p>+(234)802&nbsp;3221&nbsp;189</p>
+            <p>+(234)</p>
           </div>
           <div class=" fp-icon-box-5 icon-center dark-version">
             <span class="fp-icon">
