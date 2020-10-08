@@ -308,6 +308,9 @@ a:hover {
     border-right: none !important;
     border-bottom: white 1px solid;
   }
+  .red {
+    font-size: 1.3em !important;
+  }
 }
 .client-paper {
   width: 100%;

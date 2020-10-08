@@ -2,6 +2,9 @@ import React from "react";
 import Paper from "@material-ui/core/Paper";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import ContactHero from "../../contact/contactHero";
+import S from "../../../assets/s.JPG";
+import T from "../../../assets/t.JPG";
 
 export default () => (
   <Paper className="p-4">
@@ -46,5 +49,10 @@ export default () => (
         </p>
       </div>
     </div>
+    <div>
+      <img src={S} alt="omisej" className="service-page-image" />
+      <img src={T} alt="omisej" className="service-page-image" />
+    </div>
+    <ContactHero />
   </Paper>
 );

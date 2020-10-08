@@ -1,6 +1,7 @@
 import React from "react";
 import Paper from "@material-ui/core/Paper";
 import { Helmet } from "react-helmet";
+import ContactHero from "../../contact/contactHero";
 
 export default () => (
   <Paper className="p-4">
@@ -64,5 +65,6 @@ export default () => (
         </p>
       </div>
     </div>
+    <ContactHero />
   </Paper>
 );

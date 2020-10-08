@@ -12,10 +12,11 @@ const ContactHero = () => {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
         backgroundSize: "cover",
+        borderRadius: ".5em",
       }}
     >
       <div className="contact-cta text-center">
-        <h2 className="text-white">Have a problem we can solve?</h2>
+        <h2 className="text-white red">Have a problem we can solve?</h2>
         <Button
           as={Link}
           to="/contact-us/"

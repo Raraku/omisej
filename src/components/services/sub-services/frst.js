@@ -1,6 +1,9 @@
 import React from "react";
 import Paper from "@material-ui/core/Paper";
 import { Helmet } from "react-helmet";
+import ContactHero from "../../contact/contactHero";
+import Q from "../../../assets/q.JPG";
+import R from "../../../assets/r.JPG";
 
 export default () => (
   <Paper className="p-4">
@@ -29,6 +32,11 @@ export default () => (
           to fit a client's needs.
         </p>
       </div>
+      <div>
+        <img src={Q} alt="omisej" className="service-page-image" />
+        <img src={R} alt="omisej" className="service-page-image" />
+      </div>
     </div>
+    <ContactHero />
   </Paper>
 );
