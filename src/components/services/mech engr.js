@@ -6,11 +6,25 @@ import ContactHero from "./../contact/contactHero";
 import Seven from "./../../assets/n.JPG";
 import Eight from "./../../assets/o.JPG";
 import Nine from "./../../assets/d.JPG";
+import { Helmet } from "react-helmet";
 import Ten from "./../../assets/l.JPG";
 
 export default () => {
   return (
     <Paper className="p-4">
+      <Helmet>
+        <meta charset="utf-8" />
+        <title>Mechanical Engineering | Omisej Nigeria Limited</title>
+        <meta
+          name="description"
+          content="
+      Experience has shown that water and other
+      amenities play vital roles in comfort obtainable in homes, offices,
+      campuses, hotels, factories and estates. The quality of water also affects
+      the performance of industrial machines and quality of products in the
+      industry. We offer services in: Borehole Drilling & Maintenance, Fabrication, Installation and servicing of Water Treatment Plants, Supply and installation of uv lights, reverse osmosis units and ozone systems."
+        />
+      </Helmet>
       <div>
         <h3 className="service-head">MECHANICAL ENGINEERING</h3>
       </div>
