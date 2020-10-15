@@ -273,6 +273,8 @@ a:hover {
   .first,
   .second {
     min-height: 35vh !important;
+    padding-left: 0;
+    padding-right: 0;
   }
   .image-col {
     padding-left: 0;
@@ -319,6 +321,7 @@ a:hover {
   display: flex;
   overflow-y: hidden;
   padding-bottom: 0;
+  overflow: auto;
   flex: 1;
   white-space: nowrap;
   justify-content: space-between;

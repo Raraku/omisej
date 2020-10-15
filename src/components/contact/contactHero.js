@@ -23,7 +23,7 @@ const ContactHero = () => {
           variant="outline-light"
           className="contact-image-button text-center"
         >
-          Contact Us
+          Contact Us Now
         </Button>
       </div>
     </div>

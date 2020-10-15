@@ -25,15 +25,21 @@ export default (props) => {
         to incidence."
         />
       </Helmet>
-      <header>
-        <Jumbotron />
-      </header>
+      <Container fluid>
+        <header>
+          <Jumbotron />
+        </header>
 
-      <Container className="the-display">
-        <Mission />
-        <br />
-        <About refe={props.refA} />
-        <Services refe={props.refS} />
+        <Container className="the-display">
+          <Mission />
+
+          <br />
+          <About refe={props.refA} />
+        </Container>
+      </Container>
+
+      <Services refe={props.refS} />
+      <Container>
         <Client />
         <ContactHero />
       </Container>
