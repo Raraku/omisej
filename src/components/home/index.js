@@ -37,8 +37,9 @@ export default (props) => {
           <About refe={props.refA} />
         </Container>
       </Container>
-
-      <Services refe={props.refS} />
+      <Container fluid="md">
+        <Services refe={props.refS} />
+      </Container>
       <Container>
         <Client />
         <ContactHero />

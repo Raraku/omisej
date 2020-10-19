@@ -89,7 +89,8 @@ background-color: #f4f4f4; */
   color: white;
   display: flex;
   align-items: center;
-  font-size: 1.4em;
+  font-size: 1.2em;
+  padding:.2em;
   justify-content: center;
   flex-direction: column;
 }
