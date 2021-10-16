@@ -45,6 +45,9 @@ const Footer = () => {
                 <Link to="/services/domestic-industrial-plumbing/">
                   Domestic and Industrial Plumbing
                 </Link>
+                <Link to="/services/water-treatment-in-lagos/">
+                  Water Treatment Services in Lagos, Ogun, Oyo
+                </Link>
               </Col>
             </Row>
           </Col>

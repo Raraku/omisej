@@ -2,7 +2,6 @@ import React from "react";
 import Jumbotron from "./jumbotron";
 import Services from "./Services";
 import Mission from "./Mission";
-import { Container } from "react-bootstrap";
 import About from "./../about";
 import { Helmet } from "react-helmet";
 import WOW from "wowjs";
@@ -25,25 +24,22 @@ export default (props) => {
         to incidence."
         />
       </Helmet>
-      <Container fluid>
-        <header>
-          <Jumbotron />
-        </header>
+      <div fluid>
+        <Jumbotron />
 
-        <Container className="the-display">
+        <div className="the-display">
           <Mission />
 
-          <br />
           <About refe={props.refA} />
-        </Container>
-      </Container>
-      <Container fluid="md">
+        </div>
+      </div>
+      <div fluid="md">
         <Services refe={props.refS} />
-      </Container>
-      <Container>
+      </div>
+      <div>
         <Client />
         <ContactHero />
-      </Container>
+      </div>
     </div>
   );
 };

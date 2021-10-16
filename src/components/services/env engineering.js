@@ -7,7 +7,7 @@ import { Helmet } from "react-helmet";
 
 export default () => {
   return (
-    <Paper className="p-4">
+    <Paper className="p-2 text-justify">
       <Helmet>
         <meta charset="utf-8" />
         <title>Environmental Engineering | Omisej Nigeria Limited</title>
@@ -21,7 +21,7 @@ export default () => {
       <div>
         <h3 className="service-head">ENVIRONMENTAL ENGINEERING</h3>
       </div>
-      <p>
+      <p className="text-justify">
         To be safe our environment need to be kept safe. To achieve a safe
         environment great effort made contributed by all to mitigate
         environmental degradation. Omisej has made her service available in the

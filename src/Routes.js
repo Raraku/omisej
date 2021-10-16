@@ -22,6 +22,7 @@ import Frst from "./components/services/sub-services/frst";
 import Occ from "./components/services/sub-services/occ";
 import Sc from "./components/services/sub-services/sc";
 import St from "./components/services/sub-services/st";
+import WTIN from "./components/WTIN";
 import tos from "./tos";
 import ReactGA from "react-ga";
 
@@ -56,6 +57,7 @@ export default (props) => {
       />
       <Route path="/terms-of-service/" component={tos} />
       <Route path="/privacy-policy/" component={privacy} />
+      <Route path="/services/water-treatment-in-lagos/" component={WTIN} />
       <Route path="/services/environmental-engineering/" component={Env} />
       <Route path="/services/chemical-engineering/" component={Chem} />
       <Route path="/services/mechanical-engineering/" component={Mech} />

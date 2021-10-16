@@ -7,7 +7,7 @@ import Two from "./../../assets/l.JPG";
 
 export default () => {
   return (
-    <Paper className="p-4">
+    <Paper className="p-2 text-justify">
       <Helmet>
         <meta charset="utf-8" />
         <title>Industrial Engineering | Omisej Nigeria Limited</title>
@@ -21,7 +21,7 @@ export default () => {
       <div>
         <h3 className="service-head">INDUSTRIAL ENGINEERING</h3>
       </div>
-      <p>
+      <p className="text-justify">
         As the economic growth place a demand on the society, there will be a
         need for more industries to be erected for better product formulation
         and improve employment. Omisej is well poised to offer our client

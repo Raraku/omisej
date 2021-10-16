@@ -15,7 +15,8 @@ body {
   height: 100%;
   z-index: -2;
 } */
-.row {}
+.row {
+}
 
 .jumbotron-text {
   padding: 0.5rem;
@@ -60,6 +61,8 @@ body {
 
 .a-nav {
   background-color: #13dd78;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
 }
 
 .c-nav {
@@ -170,7 +173,8 @@ section {
 }
 
 .contact-block-a,
-.contact-block-b {}
+.contact-block-b {
+}
 
 .contact-block-a {
   height: 100%;

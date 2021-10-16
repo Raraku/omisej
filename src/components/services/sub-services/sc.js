@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet";
 import ContactHero from "../../contact/contactHero";
 
 export default () => (
-  <Paper className="p-4">
+  <Paper className="p-2 text-justify">
     <Helmet>
       <meta charset="utf-8" />
       <title>Supply of Chemicals in Nigeria | Omisej Nigeria Limited</title>

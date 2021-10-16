@@ -6,7 +6,7 @@ import Q from "../../../assets/q.JPG";
 import R from "../../../assets/r.JPG";
 
 export default () => (
-  <Paper className="p-4">
+  <Paper className="p-2 text-justify">
     <Helmet>
       <meta charset="utf-8" />
       <title>

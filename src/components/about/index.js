@@ -4,7 +4,7 @@ export default (props) => {
   return (
     <div className="wow bounceInUp" ref={props.refe}>
       <h3 className="mission-head">Who we are</h3>
-      <p className="m-2">
+      <p className="m-2 text-justify">
         <b>OMISEJ NIGERIA LIMITED</b> is a Nigerian indigenous company duly
         incorporated on 10th January, 1994 under the Nigerian Company and Allied
         Matters Law of 1976 as a Private Limited Liability Company. We are a

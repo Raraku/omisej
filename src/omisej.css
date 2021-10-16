@@ -1,9 +1,11 @@
 .a-nav {
-  background-color: green;
+  background-color: #0c5a0cd2;
+  /* background-color: rgba(255, 255, 255, 0.15); */
+  backdrop-filter: blur(5px);
 }
 
 #root {
-  background-color: #f5f5f5;
+  /* background-color: #f5f5f5; */
   /* background-color: #c3dbcf; */
   min-height: 100vh;
 }
@@ -18,24 +20,34 @@ background-color: #f4f4f4; */
 }
 
 .header {
-  color: green;
+  color: #0c5a0cd2;
 }
 
-.fifth {
-  max-width: 85%;
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1400px;
+  }
+  .image-col {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
+
+/* .fifth {
+  max-width: 85%;
+} */
 
 .fifth,
 .sixth {
-  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
 .image-col {
   width: 100%;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 
 .jumbotron-text {
@@ -43,7 +55,7 @@ background-color: #f4f4f4; */
   font-size: 1.5rem;
   margin-bottom: 1rem;
   word-wrap: break-word;
-  color: green;
+  color: #0c5a0cd2;
 }
 
 .jumbotron-header {
@@ -61,8 +73,8 @@ background-color: #f4f4f4; */
   margin-top: 1em;
   border-radius: 1em;
   min-height: 60vh;
-  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
 .sixth > .col {
@@ -74,7 +86,7 @@ background-color: #f4f4f4; */
 }
 
 .sixth > .first {
-  color: green;
+  color: #0c5a0cd2;
   background: white;
   position: relative;
   display: flex;
@@ -85,19 +97,19 @@ background-color: #f4f4f4; */
 }
 
 .sixth > .second {
-  background-color: green;
+  background-color: #0c5a0cd2;
   color: white;
   display: flex;
   align-items: center;
   font-size: 1.2em;
-  padding:.2em;
+  padding: 0.2em;
   justify-content: center;
   flex-direction: column;
 }
 
 .mission-head {
   text-align: center;
-  color: green;
+  color: #0c5a0cd2;
 }
 
 .bottom {
@@ -126,6 +138,9 @@ background-color: #f4f4f4; */
   transition: transform 0.2s;
 }
 
+.third {
+  margin-top: 1.5em;
+}
 .top {
   position: relative;
   margin-bottom: 20px;
@@ -140,22 +155,48 @@ background-color: #f4f4f4; */
 }
 
 .services:hover .top {
-  color: green;
+  color: #0c5a0cd2;
   cursor: pointer;
+}
+.client-image-cont {
+  float: left;
+  width: 32%;
+  padding: 0 10px;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.client-div {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.client-div:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+
+.client-image {
+  width: 150px;
+  height: 150px;
 }
 
 .top:before {
   content: "";
   width: 3px;
   height: 40px;
-  background-color: green;
+  background-color: #0c5a0cd2;
   position: absolute;
   left: 0;
   top: 0;
 }
 
 .footer-nav {
-  background-color: green;
+  background-color: #0c5a0cd2;
   min-height: 30vh;
 }
 
@@ -200,9 +241,9 @@ a:hover {
 .eada {
   border-right: white 1px solid;
 }
-.lom {
+/* .lom {
   border-bottom: white 1px solid;
-}
+} */
 .lom:hover {
   text-decoration: none;
   font-size: 1.1em;
@@ -241,11 +282,11 @@ a:hover {
 
 .service-head {
   text-align: center;
-  color: green;
+  color: #0c5a0cd2;
 }
 
 .contact-block-a {
-  border-right: green 2px solid;
+  border-right: #0c5a0cd2 2px solid;
 }
 
 @media only screen and (max-width: 768px) {
@@ -254,12 +295,17 @@ a:hover {
     padding-right: 0 !important;
     padding-left: 0 !important;
   }
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
   .fifth {
-    max-width: 100% !important;
+    /* max-width: 100% !important; */
     min-height: 40vh;
   }
   .c-image {
-    min-height: 50vh;
+    min-height: 40vh;
   }
   .carousel-caption > h3 {
     font-size: 1.1em !important;
@@ -274,16 +320,13 @@ a:hover {
   .first,
   .second {
     min-height: 35vh !important;
-    padding-left: 0;
-    padding-right: 0;
+    /* padding-left: 0;
+    padding-right: 0; */
   }
-  .image-col {
-    padding-left: 0;
-    padding-right: 0;
-  }
+
   .contact-block-a {
     border-right: none;
-    border-bottom: green 2px solid;
+    border-bottom: #0c5a0cd2 2px solid;
     margin-bottom: 0.5em;
   }
   .service-page-image {
@@ -314,17 +357,53 @@ a:hover {
   .red {
     font-size: 1.3em !important;
   }
+  /* Float four columns side by side */
+  .client-image-cont {
+    float: left;
+    width: 32%;
+    padding: 0 10px;
+    text-align: center;
+    /* margin-bottom: 2em; */
+  }
+
+  /* Remove extra left and right margins, due to padding in columns */
+  .client-div {
+    margin: 0 -5px;
+  }
+
+  /* Clear floats after the columns */
+  .client-div:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Style the counter cards */
+
+  .client-image {
+    width: 5.5em;
+    height: 5.5em;
+  }
 }
 .client-paper {
   width: 100%;
 }
-.client-div {
+/* .client-div {
+  display: flex;
+} */
+/* .client-div::-webkit-scrollbar {
+  display: none;
+} */
+
+/* Float four columns side by side */
+
+/* .client-div {
   display: flex;
   overflow-y: hidden;
   padding-bottom: 0;
   overflow: auto;
   flex: 1;
-  white-space: nowrap;
+  white-space: wrap;
   justify-content: space-between;
 
   width: 100%;
@@ -335,7 +414,7 @@ a:hover {
 .client-image {
   width: 150px;
   height: 150px;
-}
+} */
 /* .wassap-link,
 .wassap-image {
   width: 50px;

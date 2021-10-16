@@ -6,6 +6,7 @@ import c from "./c.png";
 import d from "./d.png";
 import e from "./e.gif";
 import f from "./f.png";
+import { Row } from "react-bootstrap";
 
 export default function Clients() {
   return (
@@ -13,14 +14,26 @@ export default function Clients() {
       <h3 className="text-center">
         <p className="mission-head">Our Clients include</p>
       </h3>
-      <div className="client-div">
-        <img alt="omisej" className="client-image" src={a} />
-        <img alt="omisej" className="client-image" src={b} />
-        <img alt="omisej" className="client-image" src={c} />
-        <img alt="omisej" className="client-image" src={d} />
-        <img alt="omisej" className="client-image" src={e} />
-        <img alt="omisej" className="client-image" src={f} />
-      </div>
+      <Row className="client-div">
+        <div className="client-image-cont">
+          <img alt="omisej" className="client-image" src={a} />
+        </div>
+        <div className="client-image-cont">
+          <img alt="omisej" className="client-image" src={b} />
+        </div>
+        <div className="client-image-cont">
+          <img alt="omisej" className="client-image" src={c} />
+        </div>
+        <div className="client-image-cont">
+          <img alt="omisej" className="client-image" src={d} />
+        </div>
+        <div className="client-image-cont">
+          <img alt="omisej" className="client-image" src={e} />
+        </div>
+        <div className="client-image-cont">
+          <img alt="omisej" className="client-image" src={f} />
+        </div>
+      </Row>
     </Paper>
   );
 }

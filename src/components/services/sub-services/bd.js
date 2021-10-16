@@ -7,7 +7,7 @@ import S from "../../../assets/s.JPG";
 import T from "../../../assets/t.JPG";
 
 export default () => (
-  <Paper className="p-4">
+  <Paper className="p-2 text-justify">
     <Helmet>
       <meta charset="utf-8" />
       <title>Borehole Drilling in Nigeria | Omisej Nigeria Limited</title>

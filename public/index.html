@@ -1,41 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
 
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-178000441-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
 
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178000441-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
+      gtag("config", "UA-178000441-1");
+      gtag("config", "AW-580082504");
+    </script>
 
-    gtag("config", "UA-178000441-1");
-    gtag("config", "AW-580082504");
-  </script>
+    <meta charset="utf-8" />
 
-  <meta charset="utf-8" />
-
-  <link rel="icon" href="%PUBLIC_URL%/logo.svg" />
-  <link rel="shortcut icon" sizes="48x48" href="%PUBLIC_URL%/logo.svg">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
-  <meta name="description" content="Omisej Nigeria Limited is a Water, Mechanical and Chemical Engineering company. We are staffed with
+    <link rel="icon" href="%PUBLIC_URL%/logo.svg" />
+    <link rel="shortcut icon" sizes="48x48" href="%PUBLIC_URL%/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Omisej Nigeria Limited is a Water, Mechanical and Chemical Engineering company. We are staffed with
             well trained Engineers with extensive experience in Steel fabrication
             and erection, water treatment, borehole drilling and servicing. Our
             services are prompt, efficient and customer oriented with zero tolerance
-            to incidence." />
-  <link rel="apple-touch-icon" sizes="48x48" href="%PUBLIC_URL%/logo.svg" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css" />
-  <!--
+            to incidence."
+    />
+    <link rel="apple-touch-icon" sizes="48x48" href="%PUBLIC_URL%/logo.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css"
+    />
+    <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-  <!--
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
       Only files inside the `public` folder can be referenced from the HTML.
@@ -44,20 +52,23 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-  <title>Omisej Nigeria Limited - An Engineering Services Company</title>
-</head>
+    <title>
+      Omisej Nigeria Limited - Water Treatment, Steel Fabrication, Borehole
+      Drilling
+    </title>
+  </head>
 
-<body>
-  <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-    <input type="text" name="name" />
-    <input type="email" name="email" />
-    <input type="number" name="number" />
-    <textarea name="message"></textarea>
-  </form>
-  <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
+  <body>
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="number" name="number" />
+      <textarea name="message"></textarea>
+    </form>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
 
-  <!--
+    <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
 
@@ -67,29 +78,28 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  <!-- GetButton.io widget -->
-  <script type="text/javascript">
-    (function () {
-      var options = {
-        whatsapp: "+2348027924281", // WhatsApp number
-        call_to_action: "Message us", // Call to action
-        position: "right", // Position may be 'right' or 'left'
-      };
-      var proto = document.location.protocol,
-        host = "getbutton.io",
-        url = proto + "//static." + host;
-      var s = document.createElement("script");
-      s.type = "text/javascript";
-      s.async = true;
-      s.src = url + "/widget-send-button/js/init.js";
-      s.onload = function () {
-        WhWidgetSendButton.init(host, proto, options);
-      };
-      var x = document.getElementsByTagName("script")[0];
-      x.parentNode.insertBefore(s, x);
-    })();
-  </script>
-  <!-- /GetButton.io widget -->
-</body>
-
+    <!-- GetButton.io widget -->
+    <script type="text/javascript">
+      (function () {
+        var options = {
+          whatsapp: "+2348027924281", // WhatsApp number
+          call_to_action: "Message us", // Call to action
+          position: "right", // Position may be 'right' or 'left'
+        };
+        var proto = document.location.protocol,
+          host = "getbutton.io",
+          url = proto + "//static." + host;
+        var s = document.createElement("script");
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = url + "/widget-send-button/js/init.js";
+        s.onload = function () {
+          WhWidgetSendButton.init(host, proto, options);
+        };
+        var x = document.getElementsByTagName("script")[0];
+        x.parentNode.insertBefore(s, x);
+      })();
+    </script>
+    <!-- /GetButton.io widget -->
+  </body>
 </html>

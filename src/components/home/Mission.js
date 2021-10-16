@@ -11,20 +11,17 @@ const Mission = () => {
     1: {
       icon: faBullseye,
       title: "Our Mission",
-      text:
-        "To provide quality service and products rooted in customer satisfaction with constant innovations and improvements.",
+      text: "To provide quality service and products rooted in customer satisfaction with constant innovations and improvements.",
     },
     2: {
       icon: faEye,
       title: "Our Vision",
-      text:
-        "To be an engineering company that will be capable of handling project(service and produce) for government, oil industry, manufacturing industry, multi-national companies and individuals in Nigeria, Africa and the world.",
+      text: "To be an engineering company that will be capable of handling project(service and produce) for government, oil industry, manufacturing industry, multi-national companies and individuals in Nigeria, Africa and the world.",
     },
     3: {
       icon: faGem,
       title: "Our Core Values",
-      text:
-        "<ul><li>Win win business philosophy</li><li>Engineering Service</li><li>Peace of mind for our customers</li><li>Omisej Commodity</li><li>God Oriented</li></ul>",
+      text: "<ul><li>Win win business philosophy</li><li>Engineering Service</li><li>Peace of mind for our customers</li><li>Omisej Commodity</li><li>God Oriented</li></ul>",
     },
   };
   useEffect(() => {
@@ -41,7 +38,7 @@ const Mission = () => {
   console.log(index);
 
   return (
-    <Row className="sixth wow rubberband">
+    <Row className="sixth wow rubberband mb-5">
       <Col xs={12} md={6} className="first">
         <h2>
           {" "}
@@ -52,7 +49,7 @@ const Mission = () => {
       </Col>
       <Col xs={12} md={6} className="second">
         <p
-          className="mt-3"
+          className="m-3 text-justify"
           dangerouslySetInnerHTML={{ __html: data[index].text }}
         ></p>
       </Col>

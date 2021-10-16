@@ -10,7 +10,7 @@ import { Helmet } from "react-helmet";
 
 export default () => {
   return (
-    <Paper className="p-4">
+    <Paper className="p-2 text-justify">
       <Helmet>
         <meta charset="utf-8" />
         <title>
@@ -27,7 +27,7 @@ export default () => {
       <div>
         <h3 className="service-head">CHEMICAL ENGINEERING/MAINTENANCE</h3>
       </div>
-      <div>
+      <div className="text-justify">
         <ul>
           <li>
             Organic/Inorganic chemical cleaning (pipes, platform & tank farm)
