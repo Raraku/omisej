@@ -1,15 +1,11 @@
 import a from "./clients/a.svg";
-import b from "./clients/b.png";
 import c from "./clients/c.png";
-import d from "./clients/d.png";
 import e from "./clients/e.gif";
 import f from "./clients/f.png";
 const clientData = [
   { name: "Dangote", image: a },
-  // { name: "Chev", image: b },
-  { name: "Chevron", image: c },
-  // { name: "Chevron", image: d },
-  { name: "Chevron", image: e },
+  { name: "Nigerite", image: c },
+  { name: "UPDC", image: e },
   { name: "Chevron", image: f },
 ];
 
@@ -19,7 +15,7 @@ export const Team = (props) => {
       <div className="container">
         <div className="col-md-8 col-md-offset-2 section-title">
           <h2 className="text-4xl">Our Previous Clients</h2>
-          <p>
+          <p className="text-3xl">
             We have worked for/with some of the biggest Industries, Estates and
             Corporations in Nigeria. Our clients include:
           </p>
@@ -34,7 +30,7 @@ export const Team = (props) => {
                   {" "}
                   <img src={d.image} alt="..." className="team-img flex-1" />
                   <div className="caption">
-                    <h4 className="font-bold text-2xl">{d.name}</h4>
+                    <h4 className="text-gray-500 text-2xl">{d.name}</h4>
                     {/* <p>{d.job}</p> */}
                   </div>
                 </div>

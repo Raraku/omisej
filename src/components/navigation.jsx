@@ -27,11 +27,11 @@ export const Navigation = (props) => {
           >
             <img
               src={Logo}
-              className="logoe-image desktop"
+              className="logoe-image"
               alt="Omisej Nigeria Limited"
             />
-            {"   "}
-            Omisej Nigeria Limited
+            {"   "} <span className="mobile">OMISEJ</span>
+            <span className="desktop"> Omisej Nigeria Limited</span>
           </Link>{" "}
         </div>
 

@@ -1,4 +1,3 @@
-import CardServices from "./Services";
 import { Link } from "react-router-dom";
 
 export const Services = (props) => {
@@ -8,7 +7,7 @@ export const Services = (props) => {
       <div className="container">
         <div className="section-title mb-10">
           <h2 className="text-5xl text-sky-600 ">Our Services</h2>
-          <p className="text text-4xl">
+          <p className="text-3xl">
             We perform borehole drilling, retrofitting, steel fabrication, RO
             installation; Industrial painting and a list of other engineering
             services.

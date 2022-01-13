@@ -9,7 +9,7 @@ const Services = (props) => {
   console.log(props);
   return (
     <div className="wow bounceIn">
-      <div className="columns-2 gap-10">
+      <div className="lg:columns-2 gap-10">
         <Link
           to="/services/industrial-engineering/"
           xs={12}

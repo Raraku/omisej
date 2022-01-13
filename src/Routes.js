@@ -57,7 +57,7 @@ export default function Nice(props) {
   }, []);
   usePageTracking();
   return (
-    <div>
+    <div className="w-full">
       <Navigation />
       <Routes>
         <Route

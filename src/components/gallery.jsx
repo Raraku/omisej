@@ -30,7 +30,9 @@ export const Gallery = (props) => {
       <div className="container">
         <div className="section-title">
           <h2 className="text-4xl">Gallery</h2>
-          <p>Here are pictures from some of our executed projects</p>
+          <p className="text-3xl">
+            Here are pictures from some of our executed projects
+          </p>
         </div>
         <div className="row">
           <div className="portfolio-items">

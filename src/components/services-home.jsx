@@ -6,7 +6,7 @@ export const Services = (props) => {
       <div className="container">
         <div className="section-title">
           <h2 className="text-4xl">Our Services</h2>
-          <p>
+          <p className="text-3xl">
             We perform borehole drilling, retrofitting, steel fabrication, RO
             installation; Industrial painting and a list of other engineering
             services.

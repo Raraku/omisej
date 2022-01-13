@@ -1,5 +1,5 @@
 @media screen and (max-width: 400px) {
-  #features {
+  /* #features {
     padding: 20px;
     width: 111%;
   }
@@ -14,5 +14,10 @@
 
   #portfolio {
     width: 110%;
-  }
+  } */
+}
+#root {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
