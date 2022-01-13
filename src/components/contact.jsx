@@ -40,7 +40,7 @@ export const Contact = (props) => {
                   get back to you as soon as possible.
                 </p>
               </div>
-              <form name="contact" validate>
+              <form name="contact" method="post" validate>
                 <input type="hidden" name="form-name" value="contact" />
                 <div className="row">
                   <div className="col-md-6">
