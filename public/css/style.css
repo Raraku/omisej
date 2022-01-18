@@ -631,6 +631,13 @@ label {
   }
 }
 
+/* .services {
+  padding-bottom: 2rem;
+} */
+.bottom {
+  padding-bottom: 1.5rem;
+}
+
 .services:hover .service-image {
   -webkit-filter: brightness(70%);
   -webkit-transition: all 1s ease;
