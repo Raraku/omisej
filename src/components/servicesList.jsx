@@ -1,9 +1,17 @@
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 export const Services = (props) => {
-  console.log("here");
   return (
     <div className="text-center my-44">
+          <Helmet>
+        <meta charset="utf-8" />
+        <title>Our Services | Omisej Nigeria Limited</title>
+        <meta
+          name="description"
+          content="We perform borehole drilling, retrofitting, steel fabrication, RO installation; Industrial painting and a list of other engineering services."
+        />
+      </Helmet>
       <div className="container">
         <div className="section-title mb-10">
           <h2 className="text-5xl text-sky-600 ">Our Services</h2>
